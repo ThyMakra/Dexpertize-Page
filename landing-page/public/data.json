@@ -1,0 +1,106 @@
+{
+    "Header": {
+        "title": "Digital Transformation Provider",
+        "paragraph": "Transform your business to stay on top in the digital economy"
+
+    },
+    "About": {
+        "paragraph": "",
+        "Why": [
+            "Gather your key data points",
+            "Digitalizing offline data",
+            "Data extraction",
+            "Data cleansing",
+            "Consult for your key performance indicators"
+        ],
+        "Why2": [
+            "Visualize your digital data",
+            "Sketch dashboard's design",
+            "Technical support from developers with local language",
+            "Build data warehouse",
+            "Customer Service KPI, Sales KPI, Financial KPI, Management KPI and Many more."
+        ]
+    },
+    "Personality": [
+        {
+            "icon": "fa fa-cart-arrow-down",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-cloud-download",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-plane",
+            "name": "Lorem ipsum dolor",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        },
+        {
+            "icon": "fa fa-pie-chart",
+            "name": "Consectetur adipiscing",
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+        }
+
+
+    ],
+    "Testimonials": [{
+            "img": "img/testimonials/01.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/02.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/03.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/04.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        },
+        {
+            "img": "img/testimonials/05.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "John Doe"
+        },
+        {
+            "img": "img/testimonials/06.jpg",
+            "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+            "name": "Johnathan Doe"
+        }
+    ],
+    "Contact": {
+        "address": "#12 Street 2001, Phum paprak Khang thbong Songkat Kakab, Khan Porsenchey, Phnom Penh Cambodia",
+        "phone": "+855 81 500 906",
+        "email": "dexpertize.sale@gmail.com",
+        "linkedin": "https://www.linkedin.com/company/dexpertize/"
+    },
+    "Solution": [{
+            "icon": "fa fa-desktop",
+            "title": "Data Digitalization",
+            "text": "Collect your company data and transform the data from offline into processable and digital data"
+        },
+        {
+            "icon": "fa fa-eye",
+            "title": "Visualize & Monitor",
+            "text": "See your company performance based on up-to-date information, and make data-driven decisions with the help of graphical visualization"
+        },
+        {
+            "icon": "fa fa-cogs",
+            "title": "Process Optimization",
+            "text": "Discover your as-is business process and eliminate bottlenecks inside your company"
+        },
+        {
+            "icon": "fa fa-fast-forward",
+            "title": "Process Automation",
+            "text": "Automate repetive and time-consuming tasks with the help of software-based robots"
+        }
+    ]
+}
