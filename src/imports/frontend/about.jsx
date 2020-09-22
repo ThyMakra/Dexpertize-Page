@@ -13,7 +13,7 @@ export class about extends Component {
             <div className="col-md-6">
               <div className="about-text">
                 <p>{this.props.data ? this.props.data.paragraph : 'loading...'}</p>
-                <h3>Data Collection and Digitalization Service</h3>
+                <h3>Data Collection and Digitalization Services</h3>
                 <div className="list-style">
                     <ul>
                       {this.props.data ? this.props.data.Why.map(d => <li>{d}</li>) : 'loading'}
