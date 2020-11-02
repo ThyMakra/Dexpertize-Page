@@ -1,46 +1,38 @@
 import React, { Component } from 'react'
 // import PropTypes from 'prop-types'
-import emailjs from "emailjs-com";
+import emailjs, { init } from "emailjs-com";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+init("user_yuPaoaKY3FAYaEGROFvZI");
 
 
 export class Contact extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-    };
-    this.handleChange = this.handleChange.bind(this);
-    this.handleSubmit = this.handleSubmit.bind(this);
+    toast.success("Your message has successfully sent!", {
+      position: toast.POSITION.TOP_RIGHT,
+      autoClose: 2000
+    });
   };
-  handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
+  
   handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm("yulong", "yulongtemplate", "contact_form", 'user_1FCaGAzpgS6SF9gPa6VLP')
+      .sendForm("dexpertize_sale_service1", "contact_template1", "contact_form", '')
       .then(
         function (response) {
-          console.log("Yes")
           toast.success("Your message has successfully sent!", {
-            position: toast.POSITION.BOTTOM_RIGHT,
+            position: toast.POSITION.TOP_RIGHT,
             autoClose: 2000
           });
-          console.log("SUCCESS!", response.status, response.text);
+          // send information to own gmail
+          emailjs.sendForm("dexpertize_sale_service1", "receiving_information_1", "contact_form", '')
         },
         function (err) {
           toast.error("Your message was not able to be sent");
         }
       );
-    this.setState({
-      name: "",
-      email: "",
-      message: "",
-    })
   };
 
 
@@ -62,23 +54,24 @@ export class Contact extends Component {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="form-group">
-                        <input type="text" id="name" name="name" onChange={this.handleChange.bind(this)} value={this.state.name} className="form-control" placeholder="Name" required="required" />
-                        <p className="help-block text-danger"></p>
+                        <input type="text" id="name" name="name" className="form-control" placeholder="Name" required="required" />
+
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="form-group">
-                        <input type="email" id="email" name="email" onChange={this.handleChange.bind(this)} value={this.state.email} className="form-control" placeholder="Email" required="required" />
-                        <p className="help-block text-danger"></p>
+                        <input type="email" id="email" name="email"  className="form-control" placeholder="Email" required="required" />
+                        
                       </div>
                     </div>
                   </div>
                   <div className="form-group">
-                    <textarea name="message" id="message" onChange={this.handleChange.bind(this)} value={this.state.message} className="form-control" rows="4" placeholder="Message" required></textarea>
-                    <p className="help-block text-danger"></p>
+                    <textarea name="message" id="message" className="form-control" rows="4" placeholder="Message" required></textarea>
+                    
                   </div>
                   <button type="submit" value="Send" className="btn btn-custom btn-lg">Send Message</button>
-                  <ToastContainer/>
+                  
+                  <ToastContainer style={{"font-family": "sans-serif"}}/>
                 </form>
               </div>
             </div>
